@@ -20,6 +20,9 @@ body {
     background: var(--back-color);
     font-weight: 500;
 }
+.back-color {
+    background: gray;
+}
 
 .header {
     max-width: var(--max-width-block);
@@ -39,6 +42,8 @@ body {
     display: block;
     background-image: url(../img/search.svg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 20px;
     height: 20px;
     background-color: transparent;
@@ -479,12 +484,18 @@ body {
     }
     .header__menu {
         background-image: url(../img/Vector.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         width: 27px;
         margin-left: 22px;
     }
     .header__search {
         width: 20px;
         background-image: url(../img/search\ \(1\).svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .form__input-mobile {
         background: rgba(255, 255, 255, 0.1);

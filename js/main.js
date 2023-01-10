@@ -17,13 +17,9 @@ for (i = 0; i < coll.length; i++) {
 }
 
 
-changeTheme.onclick = () => {
-  if (document.body.style.background == 'var(--back-color)') {
-    document.body.style.background = 'grey'
-  } else {
-    document.body.style.background = 'var(--back-color)'
-  }
-}
+changeTheme.addEventListener('click', function(e){
+  document.body.classList.toggle('back-color');
+})
 
 
 /*justBtn.addEventListener("click", function(event) {
