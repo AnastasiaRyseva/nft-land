@@ -485,7 +485,7 @@ body {
     .header__menu {
         background-image: url(../img/Vector.svg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         width: 27px;
         margin-left: 22px;
@@ -494,7 +494,7 @@ body {
         width: 20px;
         background-image: url(../img/search\ \(1\).svg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-position: center;
     }
     .form__input-mobile {
