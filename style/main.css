@@ -14,7 +14,9 @@ li {
 a {
     text-decoration: none;
 }
-
+img {
+    max-width: 100%;
+}
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--back-color);
@@ -61,6 +63,7 @@ body {
     padding: 13px 40px;
     font-size: 20px;
     color: var(--basic-font-color);
+    cursor: pointer;
 }
 
 .form__input::placeholder {
@@ -100,6 +103,7 @@ body {
 .change-theme {
     border-radius: 2px;
     opacity: 20%;
+    cursor: pointer;
 }
 
 
@@ -289,6 +293,7 @@ body {
 .faq__item {
     flex-basis: 48%;
     margin-top: 45px;
+    color: var(--basic-font-color);
 }
 
 .collapsible {
@@ -298,7 +303,7 @@ body {
     padding: 22px 0;
     width: 100%;
     border: none;
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 1px solid var(--basic-font-color);
     text-align: left;
     outline: none;
     font-size: 20px;
@@ -407,9 +412,6 @@ body {
     .main__image {
         flex-basis: calc(100% - 450px - 30px);
     }
-    .company__img {
-        height: 30vw;
-    }
     .title {
         font-size: 36px;
     }
@@ -489,6 +491,7 @@ body {
         background-position: center;
         width: 27px;
         margin-left: 22px;
+        cursor: pointer;
     }
     .header__search {
         width: 20px;
@@ -496,6 +499,7 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        cursor: pointer;
     }
     .form__input-mobile {
         background: rgba(255, 255, 255, 0.1);
@@ -526,11 +530,9 @@ body {
         margin: 0.5em;
     }
     .company__img {
-        height: 5.5vw;
+        width: 400px;
     }
-    .card__cover, .card__img {
-        height: 30vw;
-    }
+    
   }
 
   @media (max-width: 880px) {

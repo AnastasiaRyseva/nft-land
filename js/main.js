@@ -29,7 +29,7 @@ changeTheme.addEventListener('click', function(e){
 
 const searchBtn = document.querySelector(".header__search");
 const searchField = document.querySelector(".form__input-mobile");
-searchBtn.addEventListener("click", function(event) {
+searchBtn.addEventListener("click", function() {
   searchField.classList.toggle('hidden-class');
 })
 
